@@ -43,7 +43,7 @@ def main():
     params = {}
     params["first-name"] = "Justin"
     params["last-name"] = "Hink"
-    g = application.search_profile("people:(id)", params)
+    g = application.search_profile("people:(id,first-name,last-name)", params)
     print g
 
 
