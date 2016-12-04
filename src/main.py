@@ -40,7 +40,10 @@ def main():
     g = application.get_profile(selectors="first-name,last-name,formatted-name,positions")
     print g
 
-    g = application.search_profile("Justin Hink")
+    params = {}
+    params["first-name"] = "Justin"
+    params["last-name"] = "Hink"
+    g = application.search_profile("people:(id)", params)
     print g
 
 
