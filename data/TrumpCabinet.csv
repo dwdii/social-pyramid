@@ -1,6 +1,10 @@
-Cabinet Seat,Person,Prior Position,Organization,OrgType
-Attorney General,Jeff Sessions,Senator,Congress,Government
-Secretary of Health and Human Services,Tom Price,Congressman,Congress,Government
-Secretary of the Department of Education,Betsy DeVos,Chairman,American Federation for Children,Non-profit
-U.S. Ambassador to the United Nations,Nikki Haley,Governor,South Carolina,Government
-Secretary of Transportation,Elaine Chao,Director,News Corp,Commercial
+Cabinet Seat,Person,Prior Position,Organization,OrgType,CampaignPosition,PastTrump
+Attorney General,Jeff Sessions,Senator,Congress,Government,,
+Secretary of Defense,James Mattis,General,U.S. Central Command,Military,,
+Secretary of Health and Human Services,Tom Price,Congressman,Congress,Government,,
+Secretary of Housing and Urban Development,Ben Carson,Director,Johns Hopkins Children's Center,Academic,,
+Secretary of the Department of Education,Betsy DeVos,Chairman,American Federation for Children,Non-profit,,
+U.S. Ambassador to the United Nations,Nikki Haley,Governor,South Carolina,Government,,
+Secretary of Transportation,Elaine Chao,Director,News Corp,Commercial,,
+Secretary of the Treasury,Steve Mnuchin,Hedge Fund Manager,Dune Capital Management,Commercial,National Finance Chair,
+Secretary of Commerce,Wilbur Ross,Investor,WL Ross & Co.,Commercial,,Taj Mahal

@@ -1,0 +1,58 @@
+---
+title: "Final Project Proposal"
+author: "Daniel Dittenhafer & Justin Hink"
+date: "December 5, 2016"
+documentclass: article 
+geometry: margin=0.75in
+output: 
+  pdf_document:
+    number_sections: yes
+subtitle: "DATA620: Web Analytics"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, message=FALSE}
+library(knitr)
+library(knitcitations)
+library(RefManageR)
+
+cleanbib()
+
+cite_options(style="markdown")
+
+nbcTrumpCabinet <- bibentry(bibtype="Misc",
+                         author=person(family="Rafferty", first="Andrew"),
+                         publisher="NBC News",
+                         title="Donald Trump's Cabinet Picks So Far",
+                         year=2016,
+                         month="December",
+                         url="http://www.nbcnews.com/politics/politics-news/donald-trump-s-cabinet-picks-so-far-n690296")
+
+```
+
+# Problem Statement & Research Questions
+
+We are interested in analyzing President-elect Trump's Cabinet nominations from a social and graph analitics perspective.
+
+# Statement of Objectives
+
+TBD
+
+# Data Set
+
+The data set is derived from an article written by Andrew Raffery and published by NBC News `r citep(nbcTrumpCabinet)`.
+
+
+# Evaluation
+
+TBD
+
+# References
+
+```{r, results='asis', echo=FALSE}
+BibOptions(style="html", bib.style="authortitle")
+bibliography()
+```
