@@ -1,10 +1,10 @@
-Cabinet Seat,Person,Prior Position,Organization,OrgType,CampaignPosition,PastTrump
-Attorney General,Jeff Sessions,Senator,Congress,Government,,
-Secretary of Defense,James Mattis,General,U.S. Central Command,Military,,
-Secretary of Health and Human Services,Tom Price,Congressman,Congress,Government,,
-Secretary of Housing and Urban Development,Ben Carson,Director,Johns Hopkins Children's Center,Academic,,
-Secretary of the Department of Education,Betsy DeVos,Chairman,American Federation for Children,Non-profit,,
-U.S. Ambassador to the United Nations,Nikki Haley,Governor,South Carolina,Government,,
-Secretary of Transportation,Elaine Chao,Director,News Corp,Commercial,,
-Secretary of the Treasury,Steve Mnuchin,Hedge Fund Manager,Dune Capital Management,Commercial,National Finance Chair,
-Secretary of Commerce,Wilbur Ross,Investor,WL Ross & Co.,Commercial,,Taj Mahal
+Cabinet Seat,Person,Prior Position,Organization,OrgType,CampaignPosition,PastTrump,Wikipedia
+Attorney General,Jeff Sessions,Senator,Congress,Government,,,https://en.wikipedia.org/wiki/Jeff_Sessions
+Secretary of Defense,James Mattis,General,U.S. Central Command,Military,,,https://en.wikipedia.org/wiki/James_Mattis
+Secretary of Health and Human Services,Tom Price,Congressman,Congress,Government,,,https://en.wikipedia.org/wiki/Tom_Price_(U.S._politician)
+Secretary of Housing and Urban Development,Ben Carson,Director,Johns Hopkins Children's Center,Academic,,,https://en.wikipedia.org/wiki/Ben_Carson
+Secretary of the Department of Education,Betsy DeVos,Chairman,American Federation for Children,Non-profit,,,https://en.wikipedia.org/wiki/Betsy_DeVos
+U.S. Ambassador to the United Nations,Nikki Haley,Governor,South Carolina,Government,,,https://en.wikipedia.org/wiki/Nikki_Haley
+Secretary of Transportation,Elaine Chao,Director,News Corp,Commercial,,,https://en.wikipedia.org/wiki/Elaine_Chao
+Secretary of the Treasury,Steve Mnuchin,Hedge Fund Manager,Dune Capital Management,Commercial,National Finance Chair,,https://en.wikipedia.org/wiki/Steven_Mnuchin
+Secretary of Commerce,Wilbur Ross,Investor,WL Ross & Co.,Commercial,,Taj Mahal,https://en.wikipedia.org/wiki/Wilbur_Ross
