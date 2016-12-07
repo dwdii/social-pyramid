@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="Tom Price" />
+    <node id="WL Ross &amp; Co." />
+    <node id="Elaine Chao" />
+    <node id="Congress" />
+    <node id="Betsy DeVos" />
+    <node id="U.S. Central Command" />
+    <node id="Nikki Haley" />
+    <node id="Steve Mnuchin" />
+    <node id="Dune Capital Management" />
+    <node id="James Mattis" />
+    <node id="American Federation for Children" />
+    <node id="News Corp" />
+    <node id="Johns Hopkins Children's Center" />
+    <node id="South Carolina" />
+    <node id="Jeff Sessions" />
+    <node id="Ben Carson" />
+    <node id="Wilbur Ross" />
+    <edge source="Tom Price" target="Congress" />
+    <edge source="WL Ross &amp; Co." target="Wilbur Ross" />
+    <edge source="Elaine Chao" target="News Corp" />
+    <edge source="Congress" target="Jeff Sessions" />
+    <edge source="Betsy DeVos" target="American Federation for Children" />
+    <edge source="U.S. Central Command" target="James Mattis" />
+    <edge source="Nikki Haley" target="South Carolina" />
+    <edge source="Steve Mnuchin" target="Dune Capital Management" />
+    <edge source="Johns Hopkins Children's Center" target="Ben Carson" />
+  </graph>
+</graphml>

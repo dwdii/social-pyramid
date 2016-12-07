@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="Betsy DeVos" />
+    <node id="Nikki Haley" />
+    <node id="Chairman" />
+    <node id="Hedge Fund Manager" />
+    <node id="Non-profit" />
+    <node id="Tom Price" />
+    <node id="Government" />
+    <node id="Commercial" />
+    <node id="Steve Mnuchin" />
+    <node id="Director" />
+    <node id="James Mattis" />
+    <node id="Investor" />
+    <node id="Elaine Chao" />
+    <node id="Senator" />
+    <node id="Governor" />
+    <node id="Academic" />
+    <node id="Wilbur Ross" />
+    <node id="Congressman" />
+    <node id="General" />
+    <node id="Military" />
+    <node id="Jeff Sessions" />
+    <node id="Ben Carson" />
+    <edge source="Betsy DeVos" target="Non-profit" />
+    <edge source="Betsy DeVos" target="Chairman" />
+    <edge source="Nikki Haley" target="Governor" />
+    <edge source="Nikki Haley" target="Government" />
+    <edge source="Hedge Fund Manager" target="Steve Mnuchin" />
+    <edge source="Tom Price" target="Congressman" />
+    <edge source="Tom Price" target="Government" />
+    <edge source="Government" target="Jeff Sessions" />
+    <edge source="Commercial" target="Elaine Chao" />
+    <edge source="Commercial" target="Wilbur Ross" />
+    <edge source="Commercial" target="Steve Mnuchin" />
+    <edge source="Director" target="Elaine Chao" />
+    <edge source="Director" target="Ben Carson" />
+    <edge source="James Mattis" target="Military" />
+    <edge source="James Mattis" target="General" />
+    <edge source="Investor" target="Wilbur Ross" />
+    <edge source="Senator" target="Jeff Sessions" />
+    <edge source="Academic" target="Ben Carson" />
+  </graph>
+</graphml>
