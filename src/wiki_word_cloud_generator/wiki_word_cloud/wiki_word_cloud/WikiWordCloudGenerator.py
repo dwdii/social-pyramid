@@ -12,6 +12,7 @@ class WikiWordCloudGenerator(object):
         raw_text = self.generate_text_from_url(wiki_url)
         self.generate_wordcloud_from_text(raw_text, image_output_file_name)
 
+    """generate a wordcloud image from a string"""
     def generate_wordcloud_from_text(self, text_to_process, image_output_file_name):
         # Generate a word cloud image
         wordcloud = WordCloud().generate(text_to_process)
@@ -25,6 +26,7 @@ class WikiWordCloudGenerator(object):
         else:
             plt.show()
 
+    """generate a wordcloud image from a multiple wikipedia urls"""
     def generate_wordcloud_from_multiple_urls(self, wiki_urls, image_output_file_name):
         all_raw_text = []
         for url in wiki_urls:
@@ -33,6 +35,7 @@ class WikiWordCloudGenerator(object):
         all_flattened = ''.join(all_raw_text)
         self.generate_wordcloud_from_text(all_flattened, image_output_file_name)
 
+    """grabs text from a single url"""
     def generate_text_from_url(self, wiki_url):
         header = {'User-Agent': 'Mozilla/5.0'} # Needed to prevent 403 error on Wikipedia
         req = urllib2.Request(wiki_url,headers=header)
