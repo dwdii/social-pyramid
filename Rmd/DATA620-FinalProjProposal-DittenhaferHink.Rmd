@@ -35,15 +35,17 @@ nbcTrumpCabinet <- bibentry(bibtype="Misc",
 
 # Problem Statement & Research Questions
 
-We are interested in analyzing President-elect Trump's Cabinet nominations from a social and graph analitics perspective.
+We are interested in analyzing President-elect Trump's Cabinet nominations from a social and graph analytics perspective. 
 
 # Statement of Objectives
 
-TBD
+Using graph and text analytics, we will explore the individuals whom have been (or are expected to be) nominated for
+positions in President-elect Donald Trump's cabinet.
 
 # Data Set
 
-The data set is derived from an article written by Andrew Raffery and published by NBC News `r citep(nbcTrumpCabinet)`.
+The data set is derived from an article written by Andrew Raffery and published by NBC News `r citep(nbcTrumpCabinet)`. We plan to augment this data set with web-based data including Wikipedia articles about each
+of the nominees.
 
 
 # Evaluation
