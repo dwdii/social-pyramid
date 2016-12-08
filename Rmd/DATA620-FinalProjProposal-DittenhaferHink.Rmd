@@ -2,12 +2,13 @@
 title: "Final Project Proposal"
 author: "Daniel Dittenhafer & Justin Hink"
 date: "December 5, 2016"
-documentclass: article 
-geometry: margin=0.75in
-output: 
+output:
   pdf_document:
     number_sections: yes
-subtitle: "DATA620: Web Analytics"
+  html_document: default
+geometry: margin=0.75in
+subtitle: 'DATA620: Web Analytics'
+documentclass: article
 ---
 
 ```{r setup, include=FALSE}
@@ -35,7 +36,9 @@ nbcTrumpCabinet <- bibentry(bibtype="Misc",
 
 # Problem Statement & Research Questions
 
-We are interested in analyzing President-elect Trump's Cabinet nominations from a social and graph analytics perspective. 
+For the project we will analyze President-elect Trump's Cabinet nominations from a social and graph analytics perspective.  We will look at the network of relationships between the individuals as well as the organizations in which they play a prominent role.  
+
+Additionally, we will attempt to unearth common themes in the descriptions of the above described entites from a textual analysis of the currated descriptions of them on Wikipedia. 
 
 # Statement of Objectives
 
@@ -44,13 +47,17 @@ positions in President-elect Donald Trump's cabinet.
 
 # Data Set
 
-The data set is derived from an article written by Andrew Raffery and published by NBC News `r citep(nbcTrumpCabinet)`. We plan to augment this data set with web-based data including Wikipedia articles about each
-of the nominees.
+The data set is derived from an article written by Andrew Raffery and published by NBC News `r citep(nbcTrumpCabinet)`. We plan to augment this data set with web-based data including Wikipedia articles about each of the nominees and their organizations.
 
 
 # Evaluation
 
-TBD
+##Graph Analysis:
+
+##Text Analysis:
+- A custom library will be written that scrapes raw wikipedia content and converts it into a visual display of the most commonly used words (known olloquially as a word cloud)
+- Will leverage python packages: 'BeautifulSoup' and 'wordcloud' 
+
 
 # References
 
