@@ -1,5 +1,5 @@
 from os import path
-from wordcloud import WordCloud
+from wordcloud import WordCloud, STOPWORDS
 from bs4 import BeautifulSoup
 import urllib2
 import re
@@ -15,7 +15,9 @@ class WikiWordCloudGenerator(object):
     """generate a wordcloud image from a string"""
     def generate_wordcloud_from_text(self, text_to_process, image_output_file_name):
         # Generate a word cloud image
-        wordcloud = WordCloud().generate(text_to_process)
+        stopwords = set(STOPWORDS)
+        stopwords.add("retrieved")
+        wordcloud = WordCloud(stopwords=stopwords).generate(text_to_process)
 
         # Display the generated image:
         import matplotlib.pyplot as plt
