@@ -1,6 +1,7 @@
 Cabinet Seat,Person,Prior Position,Organization,OrgType,CampaignPosition,PastTrump,Wikipedia
 Attorney General,Jeff Sessions,Senator,Congress,Government,,,https://en.wikipedia.org/wiki/Jeff_Sessions
 Secretary of Defense,James Mattis,General,U.S. Central Command,Military,,,https://en.wikipedia.org/wiki/James_Mattis
+Secretary of Homeland Security,John F. Kelly,General,U.S. Southern Command,Military,,,https://en.wikipedia.org/wiki/John_F._Kelly_(Marine)
 Secretary of Health and Human Services,Tom Price,Congressman,Congress,Government,,,https://en.wikipedia.org/wiki/Tom_Price_(U.S._politician)
 Secretary of Housing and Urban Development,Ben Carson,Director,Johns Hopkins Children's Center,Academic,,,https://en.wikipedia.org/wiki/Ben_Carson
 Secretary of the Department of Education,Betsy DeVos,Chairman,American Federation for Children,Non-profit,,,https://en.wikipedia.org/wiki/Betsy_DeVos
@@ -8,3 +9,9 @@ U.S. Ambassador to the United Nations,Nikki Haley,Governor,South Carolina,Govern
 Secretary of Transportation,Elaine Chao,Director,News Corp,Commercial,,,https://en.wikipedia.org/wiki/Elaine_Chao
 Secretary of the Treasury,Steve Mnuchin,Hedge Fund Manager,Dune Capital Management,Commercial,National Finance Chair,,https://en.wikipedia.org/wiki/Steven_Mnuchin
 Secretary of Commerce,Wilbur Ross,Investor,WL Ross & Co.,Commercial,,Taj Mahal,https://en.wikipedia.org/wiki/Wilbur_Ross
+Secretary of State,,,,,,,
+Secretary of the Interior,,,,,,,
+Secretary of Veterans Affairs,,,,,,,
+Secretary of Agriculture,,,,,,,
+Secretary of Labor,,,,,,,
+Secretary of Energy,,,,,,,

@@ -54,7 +54,14 @@ The data set is derived from an article written by Andrew Raffery and published 
 
 ##Graph Analysis:
 
+- Basic graph analysis metrics will be extracted along with visualizations of the following categories:
+  + Prior Organization
+  + Prior Organization Type
+  + Prior Position / Title
+
+
 ##Text Analysis:
+
 - A custom library will be written that scrapes raw wikipedia content and converts it into a visual display of the most commonly used words (known olloquially as a word cloud)
 - Will leverage python packages: 'BeautifulSoup' and 'wordcloud' 
 
