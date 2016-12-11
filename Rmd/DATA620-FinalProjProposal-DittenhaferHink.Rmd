@@ -32,6 +32,25 @@ nbcTrumpCabinet <- bibentry(bibtype="Misc",
                          month="December",
                          url="http://www.nbcnews.com/politics/politics-news/donald-trump-s-cabinet-picks-so-far-n690296")
 
+hillInteriorSec <- bibentry(bibtype="Misc",
+                            author=person(family="Henry", first="Devin"),
+                            publisher="The Hill",
+                            title="Trump to pick Rep. McMorris Rodgers for Interior secretary",
+                            year=2016,
+                            month="December",
+                            url="http://thehill.com/policy/energy-environment/309628-trump-to-pick-rep-mcmorris-rodgers-for-interior-secretary-report")
+
+nytimesLaborSec <- bibentry(bibtype="Misc",
+                            author=person(family="Schieber", first="Noam"),
+                            publisher="New York Times",
+                            title="Trump's Labor Pick, Andrew Puzder, Is Critic of Minimum Wage Increases",
+                            year=2016,
+                            month="December",
+                            url="http://www.nytimes.com/2016/12/08/us/politics/andrew-puzder-labor-secretary-trump.html?_r=0")
+  
+  
+
+
 ```
 
 # Problem Statement & Research Questions
@@ -47,7 +66,9 @@ positions in President-elect Donald Trump's cabinet.  Note: Since a number of th
 
 # Data Set
 
-The data set is derived from an article written by Andrew Raffery and published by NBC News `r citep(nbcTrumpCabinet)`. We plan to augment this data set with web-based data including Wikipedia articles about each of the nominees and their organizations.
+The data set is derived from several articles. The original article was written by Andrew Raffery and published by NBC News `r citep(nbcTrumpCabinet)`. The Hill published information regarding the Secretary of the Interior `r citep(hillInteriorSec)`, and the New York Times did the same for the Secretary of Labor `r citep(nytimesLaborSec)`. 
+
+We plan to augment this data set with web-based data including Wikipedia articles about each of the nominees and their organizations.
 
 
 # Evaluation
@@ -61,11 +82,15 @@ Basic graph analysis metrics will be extracted along with visualizations of the 
 * Prior Position / Title
 
 
-##Text Analysis:
+## Text Analysis:
 
 - A custom library will be written that scrapes raw wikipedia content and converts it into a visual display of the most commonly used words (known olloquially as a word cloud)
 - Will leverage python packages: 'BeautifulSoup' and 'wordcloud' 
 - The accumulated text will be aggregated and analyzed for general language patterns (common metric such as Zipf's law)
+
+## Roles & Responsibilities
+
+We have worked together on prior projects and plan to work collaboratively once again on this project. In general, Daniel will be leading the graph analysis, while Justin will lead the text analysis. Both will contribute at some level to all aspects of the project from this proposal and data set acquisition, to final project write up.
 
 # References
 
