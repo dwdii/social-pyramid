@@ -46,3 +46,11 @@ class WikiWordCloudGenerator(object):
         page = urllib2.urlopen(req)
         soup = BeautifulSoup(page)
         return soup.text
+
+    def get_combined_scraped_text(self, wiki_urls):
+        all_raw_text = []
+        for url in wiki_urls:
+            all_raw_text.append(self.generate_text_from_url(url))
+
+        all_flattened = ''.join(all_raw_text)
+        return all_flattened
