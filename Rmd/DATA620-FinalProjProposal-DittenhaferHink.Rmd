@@ -43,7 +43,7 @@ Additionally, we will attempt to unearth common themes in the descriptions of th
 # Statement of Objectives
 
 Using graph and text analytics, we will explore the individuals whom have been (or are expected to be) nominated for
-positions in President-elect Donald Trump's cabinet.
+positions in President-elect Donald Trump's cabinet.  Note: Since a number of these positions have yet to be finalized, these data are changing quite frequently.  The project will be completed with data current as of 12/11/2016
 
 # Data Set
 
@@ -64,7 +64,7 @@ The data set is derived from an article written by Andrew Raffery and published 
 
 - A custom library will be written that scrapes raw wikipedia content and converts it into a visual display of the most commonly used words (known olloquially as a word cloud)
 - Will leverage python packages: 'BeautifulSoup' and 'wordcloud' 
-
+- The accumulated text will be aggregated and analyzed for general language patterns (common metric such as Zipf's law)
 
 # References
 
