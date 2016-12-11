@@ -1,7 +1,7 @@
 ---
 title: "Final Project Proposal"
 author: "Daniel Dittenhafer & Justin Hink"
-date: "December 5, 2016"
+date: "December 11, 2016"
 output:
   pdf_document:
     number_sections: yes
@@ -52,12 +52,13 @@ The data set is derived from an article written by Andrew Raffery and published 
 
 # Evaluation
 
-##Graph Analysis:
+## Graph Analysis:
 
-- Basic graph analysis metrics will be extracted along with visualizations of the following categories:
-  + Prior Organization
-  + Prior Organization Type
-  + Prior Position / Title
+Basic graph analysis metrics will be extracted along with visualizations of the following categories:
+
+* Prior Organization
+* Prior Organization Type
+* Prior Position / Title
 
 
 ##Text Analysis:
