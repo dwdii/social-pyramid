@@ -17,6 +17,8 @@ class WikiWordCloudGenerator(object):
         # Generate a word cloud image
         stopwords = set(STOPWORDS)
         stopwords.add("retrieved")
+        stopwords.add("ext")
+        stopwords.add("state")
         wordcloud = WordCloud(stopwords=stopwords).generate(text_to_process)
 
         # Display the generated image:

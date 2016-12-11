@@ -31,7 +31,12 @@ members_urls = ["http://en.wikipedia.org/wiki/Jeff_Sessions",
 "http://en.wikipedia.org/wiki/Nikki_Haley",
 "http://en.wikipedia.org/wiki/Elaine_Chao",
 "http://en.wikipedia.org/wiki/Steven_Mnuchin",
-"http://en.wikipedia.org/wiki/Wilbur_Ross"]
+"http://en.wikipedia.org/wiki/Wilbur_Ross",
+"http://en.wikipedia.org/wiki/Rex_Tillerson",
+"http://en.wikipedia.org/wiki/Cathy_McMorris_Rodgers",
+"http://en.wikipedia.org/wiki/Pete_Hegseth",
+"http://en.wikipedia.org/wiki/Andrew_Puzder"
+]
 
 # generate word cloud for all cabinet members
 generator.generate_wordcloud_from_multiple_urls(members_urls, "all_cabinet_members.png")
@@ -43,10 +48,14 @@ orgs_urls = [
 "https://en.wikipedia.org/wiki/Johns_Hopkins_Hospital",
 "https://en.wikipedia.org/wiki/Alliance_for_School_Choice",
 "https://en.wikipedia.org/wiki/News_Corp",
-"https://en.wikipedia.org/wiki/Invesco"]
+"https://en.wikipedia.org/wiki/Invesco",
+"https://en.wikipedia.org/wiki/ExxonMobil",
+"https://en.wikipedia.org/wiki/Vets_For_Freedom",
+"https://en.wikipedia.org/wiki/CKE_Restaurants"
+]
 
 # generate word cloud for all organizations that cabinet members are directly a part of (currently)
-#generator.generate_wordcloud_from_multiple_urls(orgs_urls, "all_cabinet_orgs.png")
+generator.generate_wordcloud_from_multiple_urls(orgs_urls, "all_cabinet_orgs.png")
 
 # generate word cloud for all members AND all related orgs
-#generator.generate_wordcloud_from_multiple_urls(members_urls+orgs_urls, "all_cabinet_members_and_orgs.png")
+generator.generate_wordcloud_from_multiple_urls(members_urls+orgs_urls, "all_cabinet_members_and_orgs.png")
