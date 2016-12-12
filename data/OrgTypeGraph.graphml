@@ -1,31 +1,81 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="NodeType" attr.type="string" for="node" id="d0" />
   <graph edgedefault="undirected">
-    <node id="Tom Price" />
-    <node id="Steve Mnuchin" />
-    <node id="Elaine Chao" />
-    <node id="Betsy DeVos" />
-    <node id="Hedge Fund Manager" />
-    <node id="Nikki Haley" />
-    <node id="Governor" />
-    <node id="General" />
-    <node id="Director" />
-    <node id="James Mattis" />
-    <node id="Chairman" />
-    <node id="Senator" />
-    <node id="Congressman" />
-    <node id="Jeff Sessions" />
-    <node id="Investor" />
-    <node id="Ben Carson" />
-    <node id="Wilbur Ross" />
-    <edge source="Tom Price" target="Congressman" />
-    <edge source="Steve Mnuchin" target="Hedge Fund Manager" />
-    <edge source="Elaine Chao" target="Director" />
-    <edge source="Betsy DeVos" target="Chairman" />
-    <edge source="Nikki Haley" target="Governor" />
-    <edge source="General" target="James Mattis" />
-    <edge source="Director" target="Ben Carson" />
-    <edge source="Senator" target="Jeff Sessions" />
-    <edge source="Investor" target="Wilbur Ross" />
+    <node id="Tom Price">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Cathy McMorris Rodgers">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Elaine Chao">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Government">
+      <data key="d0">OrgType</data>
+    </node>
+    <node id="Betsy DeVos">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Nikki Haley">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Steve Mnuchin">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Rex Tillerson">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Pete Hegseth">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Academic">
+      <data key="d0">OrgType</data>
+    </node>
+    <node id="James Mattis">
+      <data key="d0">Person</data>
+    </node>
+    <node id="TBD">
+      <data key="d0">OrgType</data>
+    </node>
+    <node id="Wilbur Ross">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Andrew F. Puzder">
+      <data key="d0">Person</data>
+    </node>
+    <node id="John F. Kelly">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Military">
+      <data key="d0">OrgType</data>
+    </node>
+    <node id="Non-profit">
+      <data key="d0">OrgType</data>
+    </node>
+    <node id="Jeff Sessions">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Ben Carson">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Commercial">
+      <data key="d0">OrgType</data>
+    </node>
+    <edge source="Tom Price" target="Government" />
+    <edge source="Cathy McMorris Rodgers" target="Government" />
+    <edge source="Elaine Chao" target="Commercial" />
+    <edge source="Government" target="Jeff Sessions" />
+    <edge source="Government" target="Nikki Haley" />
+    <edge source="Betsy DeVos" target="Non-profit" />
+    <edge source="Steve Mnuchin" target="Commercial" />
+    <edge source="Rex Tillerson" target="Commercial" />
+    <edge source="Pete Hegseth" target="Non-profit" />
+    <edge source="Academic" target="Ben Carson" />
+    <edge source="James Mattis" target="Military" />
+    <edge source="TBD" target="TBD" />
+    <edge source="Wilbur Ross" target="Commercial" />
+    <edge source="Andrew F. Puzder" target="Commercial" />
+    <edge source="John F. Kelly" target="Military" />
   </graph>
 </graphml>
