@@ -50,7 +50,6 @@ for w in wiki_raw:
             wiki_unique.add(trans)
             wiki_all_filtered.append(trans)
     except Exception:
-        #enoding_errors.append['']
         pass
 
 print('Total Number of Words: %i' % len(wiki_all_filtered))
