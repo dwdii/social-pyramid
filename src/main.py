@@ -81,10 +81,11 @@ def twitter_test(screenname):
             for f in followers:
                 if(f.screen_name not in followDict):
                     followDict[f.screen_name] = f.followers_count
-                    dw.writerow([f.screen_name, f.followers_count, f.lang, f.location, f.time_zone])
+                    dw.writerow([f.screen_name, f.followers_count, f.lang]) #, f.location, f.time_zone
 
         if next_cursor:
             cursor = next_cursor
+            print len(followDict)
             time.sleep(60)
 
         if next_cursor == 0 or next_cursor == previous_cursor:
