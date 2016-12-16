@@ -40,7 +40,9 @@ members_urls = ["http://en.wikipedia.org/wiki/Jeff_Sessions",
 # generate word cloud for all cabinet members
 #generator.generate_wordcloud_from_multiple_urls(members_urls, "all_cabinet_members.png")
 
-generator.generate_wordcloud_from_multiple_urls(members_urls, "")
+#generator.generate_wordcloud_from_multiple_urls(members_urls, "", [])
+
+generator.generate_wordcloud_from_multiple_urls(["http://en.wikipedia.org/wiki/Jeff_Sessions"], "", ['Jeff', 'Session'])
 
 orgs_urls = [
 "https://en.wikipedia.org/wiki/United_States_Congress",

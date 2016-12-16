@@ -1,8 +1,7 @@
-from os import path
 from wordcloud import WordCloud, STOPWORDS
 from bs4 import BeautifulSoup
 import urllib2
-import re
+
 
 class WikiWordCloudGenerator(object):
     """Class that provided utilities to generate word clouds from Wikipedia URLs"""
@@ -13,12 +12,18 @@ class WikiWordCloudGenerator(object):
         self.generate_wordcloud_from_text(raw_text, image_output_file_name)
 
     """generate a wordcloud image from a string"""
-    def generate_wordcloud_from_text(self, text_to_process, image_output_file_name):
+    def generate_wordcloud_from_text(self, text_to_process, image_output_file_name, custom_stop_words):
         # Generate a word cloud image
         stopwords = set(STOPWORDS)
         stopwords.add("retrieved")
         stopwords.add("ext")
         stopwords.add("state")
+        stopwords.add("new")
+        stopwords.add("ready")
+        stopwords.add("true")
+        stopwords.add("edit")
+        for sw in custom_stop_words:
+            stopwords.add(sw.lower())
         wordcloud = WordCloud(stopwords=stopwords).generate(text_to_process)
 
         # Display the generated image:
@@ -31,13 +36,13 @@ class WikiWordCloudGenerator(object):
             plt.show()
 
     """generate a wordcloud image from a multiple wikipedia urls"""
-    def generate_wordcloud_from_multiple_urls(self, wiki_urls, image_output_file_name):
+    def generate_wordcloud_from_multiple_urls(self, wiki_urls, image_output_file_name, custom_stop_words):
         all_raw_text = []
         for url in wiki_urls:
             all_raw_text.append(self.generate_text_from_url(url))
 
         all_flattened = ''.join(all_raw_text)
-        self.generate_wordcloud_from_text(all_flattened, image_output_file_name)
+        self.generate_wordcloud_from_text(all_flattened, image_output_file_name, custom_stop_words)
 
     """grabs text from a single url"""
     def generate_text_from_url(self, wiki_url):
