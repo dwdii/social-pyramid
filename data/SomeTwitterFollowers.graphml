@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="NodeType" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="ObispoPascal">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="en">
+      <data key="d0">lang</data>
+    </node>
+    <node id="AliAlnashi">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="FineGael">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="DzoTncy">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="nottofy">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="__J_Bieber">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="SVLXD">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="ar">
+      <data key="d0">lang</data>
+    </node>
+    <node id="Patricialoison">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="es">
+      <data key="d0">lang</data>
+    </node>
+    <node id="mcspocky">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="SenMikeLee">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="acarrillor">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="VIP_190">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="rolliwrites">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="tr">
+      <data key="d0">lang</data>
+    </node>
+    <node id="jbryan031">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="Blogparamamas">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="UreshP">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="MacGeneration">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="Mark_n_Michelle">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="reggiedabbs">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="JRAracena">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="mmpadellan">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="crchurchonline">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="fr">
+      <data key="d0">lang</data>
+    </node>
+    <node id="danielgusana">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="BenGreenwood">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="CNNMoneyInvest">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="cuneytbasaran">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="ja">
+      <data key="d0">lang</data>
+    </node>
+    <node id="HBCUBuzz">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="rbaker65708">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="777nico">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="WilliamHill">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="seyadi_bh">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="stratechic">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="danlevy">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="kelyazar">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="DimaLukhele">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="Kazimgultekin">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="TCFNGFZ">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="workwthecoach">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="mohb2008">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="thomas_paulette">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="SaqibNapster">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="TheHarmonyQuest">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="kev_south">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="SoLongStoryland">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="JensAppelgreen">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="NewsNeck">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="paras60372">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="NorthmanTrader">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="MancowMuller">
+      <data key="d0">screen_name</data>
+    </node>
+    <node id="AndyHopson">
+      <data key="d0">screen_name</data>
+    </node>
+    <edge source="ObispoPascal" target="fr" />
+    <edge source="en" target="AliAlnashi" />
+    <edge source="en" target="FineGael" />
+    <edge source="en" target="nottofy" />
+    <edge source="en" target="__J_Bieber" />
+    <edge source="en" target="SVLXD" />
+    <edge source="en" target="Patricialoison" />
+    <edge source="en" target="mcspocky" />
+    <edge source="en" target="SenMikeLee" />
+    <edge source="en" target="rolliwrites" />
+    <edge source="en" target="jbryan031" />
+    <edge source="en" target="Blogparamamas" />
+    <edge source="en" target="UreshP" />
+    <edge source="en" target="danielgusana" />
+    <edge source="en" target="Mark_n_Michelle" />
+    <edge source="en" target="reggiedabbs" />
+    <edge source="en" target="JRAracena" />
+    <edge source="en" target="crchurchonline" />
+    <edge source="en" target="BenGreenwood" />
+    <edge source="en" target="CNNMoneyInvest" />
+    <edge source="en" target="JensAppelgreen" />
+    <edge source="en" target="HBCUBuzz" />
+    <edge source="en" target="rbaker65708" />
+    <edge source="en" target="WilliamHill" />
+    <edge source="en" target="seyadi_bh" />
+    <edge source="en" target="danlevy" />
+    <edge source="en" target="DimaLukhele" />
+    <edge source="en" target="stratechic" />
+    <edge source="en" target="TCFNGFZ" />
+    <edge source="en" target="workwthecoach" />
+    <edge source="en" target="mmpadellan" />
+    <edge source="en" target="SaqibNapster" />
+    <edge source="en" target="TheHarmonyQuest" />
+    <edge source="en" target="kev_south" />
+    <edge source="en" target="SoLongStoryland" />
+    <edge source="en" target="cuneytbasaran" />
+    <edge source="en" target="NewsNeck" />
+    <edge source="en" target="paras60372" />
+    <edge source="en" target="NorthmanTrader" />
+    <edge source="en" target="MancowMuller" />
+    <edge source="en" target="AndyHopson" />
+    <edge source="DzoTncy" target="tr" />
+    <edge source="ar" target="mohb2008" />
+    <edge source="ar" target="VIP_190" />
+    <edge source="es" target="acarrillor" />
+    <edge source="es" target="thomas_paulette" />
+    <edge source="tr" target="Kazimgultekin" />
+    <edge source="tr" target="kelyazar" />
+    <edge source="MacGeneration" target="fr" />
+    <edge source="ja" target="777nico" />
+  </graph>
+</graphml>

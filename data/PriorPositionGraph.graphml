@@ -1,35 +1,88 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="NodeType" attr.type="string" for="node" id="d0" />
   <graph edgedefault="undirected">
-    <node id="" />
-    <node id="Betsy DeVos" />
-    <node id="Nikki Haley" />
-    <node id="Chairman" />
-    <node id="Hedge Fund Manager" />
-    <node id="Andrew F. Puzder" />
-    <node id="Pete Hegseth" />
-    <node id="Tom Price" />
-    <node id="CEO" />
-    <node id="Steve Mnuchin" />
-    <node id="Director" />
-    <node id="James Mattis" />
-    <node id="John F. Kelly" />
-    <node id="Investor" />
-    <node id="Elaine Chao" />
-    <node id="Congresswoman" />
-    <node id="Senator" />
-    <node id="Rex Tillerson" />
-    <node id="Governor" />
-    <node id="Wilbur Ross" />
-    <node id="Congressman" />
-    <node id="Cathy McMorris Rodgers" />
-    <node id="General" />
-    <node id="Jeff Sessions" />
-    <node id="Ben Carson" />
-    <edge source="" target="Pete Hegseth" />
-    <edge source="" target="" />
+    <node id="Betsy DeVos">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Nikki Haley">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Executive Director">
+      <data key="d0">Prior Position</data>
+    </node>
+    <node id="Chairman">
+      <data key="d0">Prior Position</data>
+    </node>
+    <node id="Hedge Fund Manager">
+      <data key="d0">Prior Position</data>
+    </node>
+    <node id="Andrew F. Puzder">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Pete Hegseth">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Tom Price">
+      <data key="d0">Person</data>
+    </node>
+    <node id="CEO">
+      <data key="d0">Prior Position</data>
+    </node>
+    <node id="Steve Mnuchin">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Director">
+      <data key="d0">Prior Position</data>
+    </node>
+    <node id="James Mattis">
+      <data key="d0">Person</data>
+    </node>
+    <node id="John F. Kelly">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Investor">
+      <data key="d0">Prior Position</data>
+    </node>
+    <node id="TBD">
+      <data key="d0">Prior Position</data>
+    </node>
+    <node id="Elaine Chao">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Congresswoman">
+      <data key="d0">Prior Position</data>
+    </node>
+    <node id="Senator">
+      <data key="d0">Prior Position</data>
+    </node>
+    <node id="Rex Tillerson">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Governor">
+      <data key="d0">Prior Position</data>
+    </node>
+    <node id="Wilbur Ross">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Congressman">
+      <data key="d0">Prior Position</data>
+    </node>
+    <node id="Cathy McMorris Rodgers">
+      <data key="d0">Person</data>
+    </node>
+    <node id="General">
+      <data key="d0">Prior Position</data>
+    </node>
+    <node id="Jeff Sessions">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Ben Carson">
+      <data key="d0">Person</data>
+    </node>
     <edge source="Betsy DeVos" target="Chairman" />
     <edge source="Nikki Haley" target="Governor" />
+    <edge source="Executive Director" target="Pete Hegseth" />
     <edge source="Hedge Fund Manager" target="Steve Mnuchin" />
     <edge source="Andrew F. Puzder" target="CEO" />
     <edge source="Tom Price" target="Congressman" />
@@ -39,6 +92,7 @@
     <edge source="James Mattis" target="General" />
     <edge source="John F. Kelly" target="General" />
     <edge source="Investor" target="Wilbur Ross" />
+    <edge source="TBD" target="TBD" />
     <edge source="Congresswoman" target="Cathy McMorris Rodgers" />
     <edge source="Senator" target="Jeff Sessions" />
   </graph>

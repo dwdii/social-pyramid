@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="NodeType" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="Secretary of Labor">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="Betsy DeVos">
+      <data key="d0">Person</data>
+    </node>
+    <node id="U.S. Ambassador to the United Nations">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="Nikki Haley">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Secretary of Homeland Security">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="Secretary of Commerce">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="Andrew F. Puzder">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Secretary of Veterans Affairs">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="Tom Price">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Secretary of Energy">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="Secretary of the Interior">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="Steve Mnuchin">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Pete Hegseth">
+      <data key="d0">Person</data>
+    </node>
+    <node id="James Mattis">
+      <data key="d0">Person</data>
+    </node>
+    <node id="John F. Kelly">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Secretary of Transportation">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="Secretary of Agriculture">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="Secretary of the Department of Education">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="Secretary of State">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="Elaine Chao">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Rex Tillerson">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Secretary of Housing and Urban Development">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="Donald Trump">
+      <data key="d0">ReportsTo</data>
+    </node>
+    <node id="Wilbur Ross">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Secretary of the Treasury">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="Cathy McMorris Rodgers">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Secretary of Defense">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="Attorney General">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="TBD">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Secretary of Health and Human Services">
+      <data key="d0">Cabinet Seat</data>
+    </node>
+    <node id="Jeff Sessions">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Ben Carson">
+      <data key="d0">Person</data>
+    </node>
+    <edge source="Secretary of Labor" target="Donald Trump" />
+    <edge source="Secretary of Labor" target="Andrew F. Puzder" />
+    <edge source="Betsy DeVos" target="Secretary of the Department of Education" />
+    <edge source="U.S. Ambassador to the United Nations" target="Donald Trump" />
+    <edge source="U.S. Ambassador to the United Nations" target="Nikki Haley" />
+    <edge source="Secretary of Homeland Security" target="Donald Trump" />
+    <edge source="Secretary of Homeland Security" target="John F. Kelly" />
+    <edge source="Secretary of Commerce" target="Donald Trump" />
+    <edge source="Secretary of Commerce" target="Wilbur Ross" />
+    <edge source="Secretary of Veterans Affairs" target="Donald Trump" />
+    <edge source="Secretary of Veterans Affairs" target="Pete Hegseth" />
+    <edge source="Tom Price" target="Secretary of Health and Human Services" />
+    <edge source="Secretary of Energy" target="Donald Trump" />
+    <edge source="Secretary of Energy" target="TBD" />
+    <edge source="Secretary of the Interior" target="Donald Trump" />
+    <edge source="Secretary of the Interior" target="Cathy McMorris Rodgers" />
+    <edge source="Steve Mnuchin" target="Secretary of the Treasury" />
+    <edge source="James Mattis" target="Secretary of Defense" />
+    <edge source="Secretary of Transportation" target="Donald Trump" />
+    <edge source="Secretary of Transportation" target="Elaine Chao" />
+    <edge source="Secretary of Agriculture" target="Donald Trump" />
+    <edge source="Secretary of Agriculture" target="TBD" />
+    <edge source="Secretary of the Department of Education" target="Donald Trump" />
+    <edge source="Secretary of State" target="Donald Trump" />
+    <edge source="Secretary of State" target="Rex Tillerson" />
+    <edge source="Secretary of Housing and Urban Development" target="Donald Trump" />
+    <edge source="Secretary of Housing and Urban Development" target="Ben Carson" />
+    <edge source="Donald Trump" target="Secretary of Defense" />
+    <edge source="Donald Trump" target="Attorney General" />
+    <edge source="Donald Trump" target="Secretary of Health and Human Services" />
+    <edge source="Donald Trump" target="Secretary of the Treasury" />
+    <edge source="Attorney General" target="Jeff Sessions" />
+  </graph>
+</graphml>

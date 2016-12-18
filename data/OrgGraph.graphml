@@ -1,34 +1,88 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="NodeType" attr.type="string" for="node" id="d0" />
   <graph edgedefault="undirected">
-    <node id="" />
-    <node id="Betsy DeVos" />
-    <node id="Nikki Haley" />
-    <node id="Andrew F. Puzder" />
-    <node id="Exxon Mobil" />
-    <node id="Pete Hegseth" />
-    <node id="Tom Price" />
-    <node id="WL Ross &amp; Co." />
-    <node id="Congress" />
-    <node id="Steve Mnuchin" />
-    <node id="Dune Capital Management" />
-    <node id="James Mattis" />
-    <node id="Johns Hopkins Children's Center" />
-    <node id="South Carolina" />
-    <node id="John F. Kelly" />
-    <node id="Elaine Chao" />
-    <node id="Rex Tillerson" />
-    <node id="Vets For Freedom" />
-    <node id="Wilbur Ross" />
-    <node id="Cathy McMorris Rodgers" />
-    <node id="U.S. Central Command" />
-    <node id="U.S. Southern Command" />
-    <node id="American Federation for Children" />
-    <node id="News Corp" />
-    <node id="CKE Restaurants" />
-    <node id="Jeff Sessions" />
-    <node id="Ben Carson" />
-    <edge source="" target="" />
+    <node id="Betsy DeVos">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Nikki Haley">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Andrew F. Puzder">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Exxon Mobil">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="Pete Hegseth">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Tom Price">
+      <data key="d0">Person</data>
+    </node>
+    <node id="WL Ross &amp; Co.">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="Congress">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="Steve Mnuchin">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Dune Capital Management">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="James Mattis">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Johns Hopkins Children's Center">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="South Carolina">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="John F. Kelly">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Elaine Chao">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Rex Tillerson">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Vets For Freedom">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="Wilbur Ross">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Cathy McMorris Rodgers">
+      <data key="d0">Person</data>
+    </node>
+    <node id="U.S. Central Command">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="TBD">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="U.S. Southern Command">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="American Federation for Children">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="News Corp">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="CKE Restaurants">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="Jeff Sessions">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Ben Carson">
+      <data key="d0">Person</data>
+    </node>
     <edge source="Betsy DeVos" target="American Federation for Children" />
     <edge source="Nikki Haley" target="South Carolina" />
     <edge source="Andrew F. Puzder" target="CKE Restaurants" />
@@ -43,5 +97,6 @@
     <edge source="Johns Hopkins Children's Center" target="Ben Carson" />
     <edge source="John F. Kelly" target="U.S. Southern Command" />
     <edge source="Elaine Chao" target="News Corp" />
+    <edge source="TBD" target="TBD" />
   </graph>
 </graphml>
